@@ -27,7 +27,7 @@ const Services = () => {
       <div className="col-span-1 flex flex-col items-center justify-center p-4">
         <FaAward className="text-3xl text-[#052759]" />
         <h1 className="text-xl font-semibold text-gray-800 mt-4">Recognised For Excellence</h1>
-        <p className="text-gray-600 text-center">We&apos;reww been recognized for our operational excellence and customer satisfaction.</p>
+        <p className="text-gray-600 text-center">{`We've been recognized for our operational excellence and customer satisfaction.`}</p>
       </div>
   
       {/* Compare The Best */}
@@ -41,7 +41,7 @@ const Services = () => {
       <div className="col-span-1 flex flex-col items-center justify-center p-4">
         <FaStar className="text-3xl text-[#052759]" />
         <h1 className="text-xl font-semibold text-gray-800 mt-4">Premium Services</h1>
-        <p className="text-gray-600 text-center">We deliver premium services to meet the industry's demanding needs.</p>
+        <p className="text-gray-600 text-center">{`We deliver premium services to meet the industry's demanding needs.`}</p>
       </div>
     </div>
   </div>
