@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { FaCogs,FaAward,FaBalanceScale,FaStar  } from "react-icons/fa";
 const Services = () => {
   return (
-    <div className="container mx-auto px-6 lg:px-12 py-12">
+    <div className="container mx-auto px-6 lg:px-12 mt-12">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         {/* Left Section - Image */}
         <div className="w-full h-full flex justify-center">
