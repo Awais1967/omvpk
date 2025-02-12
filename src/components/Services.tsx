@@ -16,28 +16,26 @@ const Services = () => {
         />
       </div>
   
-      {/* Expert Solutions */}
+      
       <div className="col-span-1 flex flex-col items-center justify-center p-4">
         <FaCogs className="text-3xl text-[#052759]" />
         <h1 className="text-xl font-semibold text-gray-800 mt-4">Expert Solutions</h1>
         <p className="text-gray-600 text-center">Our team provides reliable solutions tailored to the oil and gas industry.</p>
       </div>
   
-      {/* Recognised For Excellence */}
       <div className="col-span-1 flex flex-col items-center justify-center p-4">
         <FaAward className="text-3xl text-[#052759]" />
         <h1 className="text-xl font-semibold text-gray-800 mt-4">Recognised For Excellence</h1>
         <p className="text-gray-600 text-center">{`We've been recognized for our operational excellence and customer satisfaction.`}</p>
       </div>
   
-      {/* Compare The Best */}
+      
       <div className="col-span-1 flex flex-col items-center justify-center p-4">
         <FaBalanceScale className="text-3xl text-[#052759]" />
         <h1 className="text-xl font-semibold text-gray-800 mt-4">Compare The Best</h1>
         <p className="text-gray-600 text-center">We partner with leading oil and gas companies known for superior service.</p>
       </div>
   
-      {/* Premium Services */}
       <div className="col-span-1 flex flex-col items-center justify-center p-4">
         <FaStar className="text-3xl text-[#052759]" />
         <h1 className="text-xl font-semibold text-gray-800 mt-4">Premium Services</h1>
