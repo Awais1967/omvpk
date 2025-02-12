@@ -3,46 +3,67 @@ import Image from 'next/image'
 import { FaCogs,FaAward,FaBalanceScale,FaStar  } from "react-icons/fa";
 const Services = () => {
   return (
-    <div className="p-6 sm:p-8 lg:p-12">
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 p-4 m-2">
-      {/* Image Section */}
-      <div className="col-span-1 sm:col-span-2 md:col-span-1 h-40">
-        <Image 
-          src='/services.jpg' 
-          alt="services not found" 
-          width={400} 
-          height={500} 
-          className="rounded-lg shadow-lg border-black border-2 w-full h-full object-cover"
-        />
-      </div>
-  
-      
-      <div className="col-span-1 flex flex-col items-center justify-center p-4">
-        <FaCogs className="text-3xl text-[#052759]" />
-        <h1 className="text-xl font-semibold text-gray-800 mt-4">Expert Solutions</h1>
-        <p className="text-gray-600 text-center">Our team provides reliable solutions tailored to the oil and gas industry.</p>
-      </div>
-  
-      <div className="col-span-1 flex flex-col items-center justify-center p-4">
-        <FaAward className="text-3xl text-[#052759]" />
-        <h1 className="text-xl font-semibold text-gray-800 mt-4">Recognised For Excellence</h1>
-        <p className="text-gray-600 text-center">{`We've been recognized for our operational excellence and customer satisfaction.`}</p>
-      </div>
-  
-      
-      <div className="col-span-1 flex flex-col items-center justify-center p-4">
-        <FaBalanceScale className="text-3xl text-[#052759]" />
-        <h1 className="text-xl font-semibold text-gray-800 mt-4">Compare The Best</h1>
-        <p className="text-gray-600 text-center">We partner with leading oil and gas companies known for superior service.</p>
-      </div>
-  
-      <div className="col-span-1 flex flex-col items-center justify-center p-4">
-        <FaStar className="text-3xl text-[#052759]" />
-        <h1 className="text-xl font-semibold text-gray-800 mt-4">Premium Services</h1>
-        <p className="text-gray-600 text-center">{`We deliver premium services to meet the industry's demanding needs.`}</p>
+    <div className="container mx-auto px-6 lg:px-12 py-12">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        {/* Left Section - Image */}
+        <div className="w-full h-full flex justify-center">
+          <Image
+            src="/services.jpg"
+            alt="Services"
+            width={400}
+            height={500}
+            className="rounded-lg shadow-lg border border-gray-300 object-cover"
+          />
+        </div>
+
+        {/* Right Section - Features Grid */}
+        <div className="grid grid-cols-2 gap-8">
+          {/* Feature Item 1 */}
+          <div className="flex flex-col items-center text-center">
+            <FaCogs className="text-4xl text-gray-600" />
+            <h3 className="text-xl font-bold text-gray-800 mt-4">
+              Expert Solutions
+            </h3>
+            <p className="text-gray-600">
+              Our teams are expert in providing satisfactory solutions.
+            </p>
+          </div>
+
+          {/* Feature Item 2 */}
+          <div className="flex flex-col items-center text-center">
+            <FaAward className="text-4xl text-gray-600" />
+            <h3 className="text-xl font-bold text-gray-800 mt-4">
+              Recognised For Excellence
+            </h3>
+            <p className="text-gray-600">
+              We&apos;ve been awarded for our high rate of customer satisfaction.
+            </p>
+          </div>
+
+          {/* Feature Item 3 */}
+          <div className="flex flex-col items-center text-center">
+            <FaBalanceScale className="text-4xl text-gray-600" />
+            <h3 className="text-xl font-bold text-gray-800 mt-4">
+              Compare The Best
+            </h3>
+            <p className="text-gray-600">
+              We only compare market leaders with a reputation for service quality.
+            </p>
+          </div>
+
+          {/* Feature Item 4 */}
+          <div className="flex flex-col items-center text-center">
+            <FaStar className="text-4xl text-gray-600" />
+            <h3 className="text-xl font-bold text-gray-800 mt-4">
+              Premium Services
+            </h3>
+            <p className="text-gray-600">
+              We strive to provide premium quality services to our premium quality customers.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
   
     
   )
