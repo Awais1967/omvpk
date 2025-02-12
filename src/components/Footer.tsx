@@ -38,8 +38,8 @@ const footer = () => {
           </div>
 
           {/* Location Section */}
-          <div className='w-full sm:w-[25%] text-white p-4'>
-            <h3 className='text-lg font-semibold text-center mb-4'>Location</h3>
+          <div className='w-full sm:w-[25%] text-white p-4 '>
+            <h3 className='text-lg font-semibold text-center mb-6'>Location</h3>
        
             <div className="w-full  flex justify-center items-center">
       <iframe

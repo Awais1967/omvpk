@@ -11,7 +11,7 @@ import Image from 'next/image'
 const Working = () => {
   return (
     <>
-      <div className="bg-[#F4F7FC] h-full w-full mt-28 p-8 sm:p-12 lg:p-20">
+      <div className="bg-[#F4F7FC] h-full w-full mt-24 p-8 sm:p-12 lg:p-20">
         <div className="text-center mb-12">
           <h3 className="font-bold text-3xl mb-4">Our Working Process</h3>
           <p className="text-xl text-gray-600">
@@ -55,7 +55,7 @@ const Working = () => {
                           height={500}
                           className="w-full h-64 object-cover rounded-lg shadow-md"
                         />
-                        <span className="text-2xl font-semibold text-black mb-4">{item.title}</span>
+                        <span className="flex justify-center items-center text-2xl font-semibold text-black mt-4">{item.title}</span>
                       </CardContent>
                     </Card>
                   </div>

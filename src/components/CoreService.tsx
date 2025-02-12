@@ -29,7 +29,7 @@ const CoreService = () => {
     </div>
 
     
-    <div className="flex justify-center items-center p-2 m-2 text-xl">
+    <div className="flex justify-center items-center p-2 m-2 text-xl mt-6">
       <div className="text-center">
         <h3 className="text-lg">Want to know more about this?</h3>
         <p className="text-[#052759] text-3xl m-2 cursor-pointer hover:underline">View All Services</p>
@@ -55,7 +55,7 @@ const CoreService = () => {
 
 
     
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4 sm:px-6 md:px-8">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4 sm:px-6 md:px-8 mt-4">
       <div className="flex justify-center">
         <Image src='/CoreServices/chemicalprocessingorrecyclingservices.jpg' alt='01' height={400} width={500} className="rounded-lg shadow-lg" />
       </div>
