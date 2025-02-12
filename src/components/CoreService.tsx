@@ -3,18 +3,14 @@ import { FaMapMarkedAlt, FaShip, FaRecycle } from 'react-icons/fa';
 import Image from 'next/image';
 const CoreService = () => {
     return (
-      <div className=" flex justify-center items-center p-6">
+      <div className=" flex justify-center items-center p-6 mt-4">
   <div className="w-full max-w-6xl">
     <div className="text-center mb-8">
       <h3 className="text-3xl font-bold">Our Services</h3>
       <p className="text-3xl m-2 cursor-pointer">Are Saying About Us</p>
     </div>
     
-    <div className="text-center mb-8 px-4">
-      <p className="text-lg text-gray-700">
-        We provide opportunities for growth and enrichment for the success of our business partners and the communities in which we operate. In everything we do, we strive for honesty, fairness, and integrity.
-      </p>
-    </div>
+    
 
    
     <div className="flex  flex-rows  gap-2 sm:gap-6 md:gap-8">
@@ -41,7 +37,7 @@ const CoreService = () => {
     </div>
 
     
-    <div className="flex justify-center w-full p-6">
+    <div className="flex justify-center w-full p-6 ">
   <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8">
     {/* Left Side - Bold Text */}
     <p className="text-3xl font-bold leading-snug">
