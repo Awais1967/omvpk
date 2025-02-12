@@ -41,16 +41,22 @@ const CoreService = () => {
     </div>
 
     
-    <div className="flex flex-col justify-between items-center w-full p-6">
-      <div className="text-center w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
-        <p className="text-2xl font-bold mb-4">
-          We are committed to delivering 100% quality and managed services to meet the ultimate goals of the petroleum industry.
-        </p>
-        <p className="text-lg text-gray-600 mb-8">
-          We’re driven by a passion to help our clients build stronger, more efficient, and more innovative energy solutions. Your success is our success, which is why we measure satisfaction at every step of the journey. We take immense pride in our work and believe every interaction is an opportunity to exceed expectations and add value.
-        </p>
-      </div>
-    </div>
+    <div className="flex justify-center w-full p-6">
+  <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8">
+    {/* Left Side - Bold Text */}
+    <p className="text-3xl font-bold leading-snug">
+      We are trying to deliver 100% quality and managed services to achieve business ultimate goals
+    </p>
+
+    {/* Right Side - Description */}
+    <p className="text-xl text-gray-600 leading-relaxed">
+      We’re driven by a passion to help our clients, build stronger more agile and more innovative businesses.
+      So your success is our success, and that’s why we measure your satisfaction on every step of the way.
+      We take pride in our work and believe every touchpoint is a chance to delight.
+    </p>
+  </div>
+</div>
+
 
     
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-4 sm:px-6 md:px-8">

@@ -11,7 +11,7 @@ import Image from 'next/image'
 const Working = () => {
   return (
     <>
-      <div className="bg-[#F4F7FC] h-full w-full mt-40 p-8 sm:p-12 lg:p-20">
+      <div className="bg-[#F4F7FC] h-full w-full mt-36 p-8 sm:p-12 lg:p-20">
         <div className="text-center mb-12">
           <h3 className="font-bold text-3xl mb-4">Our Working Process</h3>
           <p className="text-xl text-gray-600">
