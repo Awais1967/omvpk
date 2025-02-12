@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
          <div className="bg-[#052759]">
   
-  <div className="flex justify-between items-center mx-4 sm:mx-12 lg:mx-32 mt-12">
+  <div className="flex justify-between items-center mx-4 sm:mx-12 lg:mx-32 ">
     <div className="logo ">
       <Image src='/omv.png' alt='logo' width={150} height={500} />
     </div>
@@ -23,18 +23,23 @@ const Navbar = () => {
 </div>
 
 {/* Background Section */}
-<div className="bg-[url('/background.jpg')] h-screen bg-cover bg-center opacity-100">
-  <div className="flex justify-center items-center text-center text-xl">
-    <div className="text-center p-2 m-2 mt-48 w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
-      <h3 className="text-5xl sm:text-4xl md:text-5xl font-bold">
-        Welcome to the <span className='font-bold uppercase text-[#052759]'>OMV Brand Portal</span>
+<div className="relative h-screen bg-[url('/background.jpg')] bg-cover bg-center">
+  {/* Dark Overlay for Better Readability */}
+  <div className="absolute inset-0 bg-black/50"></div>
+
+  {/* Centered Text Content */}
+  <div className="relative flex justify-center items-center text-center h-full">
+    <div className="text-white p-4 m-2 w-full sm:w-3/4 md:w-1/2 lg:w-1/3">
+      <h3 className="text-5xl sm:text-4xl md:text-5xl font-extrabold drop-shadow-lg">
+        Welcome to the <span className="text-blue-400">OMV Brand Portal</span>
       </h3>
-      <p className="text-[#052759] text-3xl m-2 cursor-pointer hover:underline">
+      <p className="text-gray-200 text-2xl md:text-3xl mt-4 cursor-pointer  drop-shadow-md">
         Discover the idea behind our identity, guided by our Design Principles.
       </p>
     </div>
   </div>
 </div>
+
 
          
           </>
