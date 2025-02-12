@@ -41,11 +41,11 @@ const footer = () => {
           <div className='w-full sm:w-[25%] text-white p-4'>
             <h3 className='text-lg font-semibold text-center mb-4'>Location</h3>
        
-            <div className="w-full h-96 flex justify-center items-center">
+            <div className="w-full  flex justify-center items-center">
       <iframe
-        className="w-full h-full rounded-lg shadow-lg"
+        className="w-full h-1/2 rounded-lg shadow-lg"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13283.637339335094!2d73.01303!3d33.671754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df95f5639807cd%3A0xa766f09bd6d00c7c!2sG-10%2F1%20G%2010%2F1%2C%20G-10%2C%20Islamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000"
-        allowFullScreen
+        
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
